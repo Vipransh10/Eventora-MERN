@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://eventora-api-zz6u.onrender.com/api',
+    baseURL: 'https://eventora-mern-iwsn.vercel.app/api',
 });
 
 api.interceptors.request.use((config) => {
