@@ -30,10 +30,10 @@ const Home = () => {
         <div className="flex flex-col min-h-screen">
             {/* Hero Section */}
             <div className="relative bg-black text-blue rounded-3xl overflow-hidden mb-12 shadow-2xl">
-            <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=3000&auto=format&fit=crop')] bg-cover bg-center"></div>
+            <div className="absolute inset-0 opacity-10 bg-] bg-cover bg-center"></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-blue to-transparent"></div>
                 <div className="relative p-10 md:p-20 text-center flex flex-col items-center z-10">
-                    <span className="bg-blue text-blue backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-6 border border-blue">Welcome to Eventora</span>
+                    <span className="bg-red-600 text-blue-900 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase mb-6 border border-red-600">Welcome to Eventora</span>
                     <h1 className="text-5xl md:text-7xl font-blue mb-6 leading-tight tracking-tight drop-shadow-lg">
                         Find Your Next <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-gray-500">Unforgettable</span> Experience
                     </h1>
